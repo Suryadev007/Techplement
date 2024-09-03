@@ -78,4 +78,4 @@ const serchQuote = async (e) => {
 };
 
 document.addEventListener("DOMContentLoaded", randomQuote); // display quote randomly
-document.getElementById("search-bar").addEventListener("submit", serchQuote);// display quote bt user search author name 
+document.getElementById("search-bar").addEventListener("submit", serchQuote); // display quotes by user search author name
