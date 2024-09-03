@@ -1,0 +1,75 @@
+.body {
+  background: red;
+}
+.search-bar {
+  padding: 3%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: transparent !important;
+}
+.quote-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  overflow-y: auto;
+}
+
+.quote-container blockquote {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+.quote-container h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #222;
+  margin-top: 2em;
+}
+
+.quote-container i {
+  color: #666;
+  font-size: 1em;
+  position: relative;
+  top: -10px;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  right: 0%;
+}
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 0%;
+}
+
+@media screen and (max-width: 1300px) {
+  .quote-container {
+    width: 90%;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .quote-container {
+    width: 80%;
+    height: 90vh;
+    margin-top: 50px;
+    font-size: 1em;
+    text-align: justify;
+  }
+}
