@@ -61,8 +61,8 @@
 
 @media screen and (max-width: 1300px) {
   .quote-container {
+    margin-top: 150px;
     width: 90%;
-    margin-top: 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -71,10 +71,10 @@
 
 @media screen and (max-width: 550px) {
   .quote-container {
-    width: 80%;
-    height: 90vh;
-    margin-top: 50px;
-    font-size: 1em;
+    margin-top: 150px;
+    font-size: 0.7em;
     text-align: justify;
+    width: fit-content;
+    height: fit-content;
   }
 }
