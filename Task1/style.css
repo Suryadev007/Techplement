@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 550px) {
   .quote-container {
-    margin-top: 150px;
+    margin-top: 10%;
     font-size: 0.7em;
     text-align: justify;
     width: fit-content;
